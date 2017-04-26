@@ -114,7 +114,7 @@
             <plugin>
                 <groupId>org.easyb</groupId>
                 <artifactId>maven-easyb-plugin</artifactId>
-                <version>1.4</version>
+                <version>1.4</version><!--$NO-MVN-MAN-VER$-->
                 <executions>
                     <execution>
                         <goals>
@@ -208,7 +208,7 @@
 
     <modules>
         <module>gameoflife-build</module>
-        <module>gameoflife-core</module>
+        <!-- module>gameoflife-core</module-->
         <module>gameoflife-web</module>
     </modules>
     <profiles>
